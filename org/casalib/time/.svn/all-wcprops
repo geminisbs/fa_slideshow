@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/314/releases/latest/code/org/casalib/time
+END
+Inactivity.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/314/releases/latest/code/org/casalib/time/Inactivity.as
+END
+Interval.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/314/releases/latest/code/org/casalib/time/Interval.as
+END
+FrameTimeStopwatch.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/314/releases/latest/code/org/casalib/time/FrameTimeStopwatch.as
+END
+EnterFrame.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/314/releases/latest/code/org/casalib/time/EnterFrame.as
+END
+Sequence.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/314/releases/latest/code/org/casalib/time/Sequence.as
+END
+FrameDelay.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/314/releases/latest/code/org/casalib/time/FrameDelay.as
+END
+FrameTime.as
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/314/releases/latest/code/org/casalib/time/FrameTime.as
+END
+Stopwatch.as
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/314/releases/latest/code/org/casalib/time/Stopwatch.as
+END

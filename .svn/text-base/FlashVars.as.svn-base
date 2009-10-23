@@ -1,0 +1,37 @@
+package {
+  public class FlashVars {
+
+    public function FlashVars() {
+      trace ("FlashVars is a static class and should not be instantiated.")
+    }
+
+    public static function process(flash_vars) {
+      var vars:Object = [];
+      for (var k in flash_vars) vars[k] = flash_vars[k];
+			
+			// Set defaults
+			var d = new Object()
+      // d.slide_list = "http://www.visualparadox.com/images/no-linking-allowed-main/beachball800.jpg;http://kangaroos.org/kangaroo-joey.jpg;http://www.aceros-de-hispania.com/image/kitchen-accessory-3claveles/kitchen-accessory-spatula.jpg"
+      d.slide_list = "http://givezooks_production.s3.amazonaws.com/media_files/91/Board.jpg;http://givezooks_production.s3.amazonaws.com/media_files/92/Picture_5.png;http://givezooks_production.s3.amazonaws.com/media_files/93/Picture_7.png"
+      d.appear_time = "3"
+      d.display_time = "2"
+      d.fade_out_time = "3"
+      d.align_horizontal = "center" // left, center, right
+      d.align_vertical = "middle" // top, middle, bottom
+
+			// Fill in defaults when needed
+			for (k in d) {
+  			if (vars[k] == undefined) vars[k] = d[k]
+			}
+			
+		  // Convert to real data types where necessary
+      var numbers:Array = new Array('appear_time', 'display_time', 'fade_out_time')
+      for (k in vars) {
+        if (numbers.indexOf(k) > -1) vars[k] = Number(vars[k])
+      }
+
+      return vars
+    }
+        
+  }
+}

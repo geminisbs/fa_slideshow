@@ -1,0 +1,107 @@
+9
+
+dir
+6509
+https://wush.net/svn/givezooks/assets/flash/slideshow
+https://wush.net/svn/givezooks
+
+
+
+2008-07-15T23:09:27.952570Z
+3492
+zeke
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+43028e54-323d-0410-9300-848a7813632e
+
+Spinner.as
+file
+
+
+
+
+2008-09-22T06:05:36.000000Z
+f89e0fed951312d88c7002d605e2bfbc
+2008-06-25T07:33:55.945427Z
+2642
+zeke
+
+caurina
+dir
+
+slideshow.fla
+file
+
+
+
+
+2008-09-22T06:05:36.000000Z
+6d813675930a673feccec3230bdee014
+2008-06-25T07:33:55.945427Z
+2642
+zeke
+has-props
+
+Slideshow.as
+file
+
+
+
+
+2008-09-22T06:05:36.000000Z
+69bc049db09bc9dfbfb4a8dd98a4a0b2
+2008-06-25T09:32:05.573390Z
+2650
+zeke
+
+Image.as
+file
+
+
+
+
+2008-09-22T06:05:36.000000Z
+751e839a46d48c1dc34946cb0d6809e9
+2008-06-25T21:02:01.639480Z
+2669
+zeke
+
+Globals.as
+file
+
+
+
+
+2008-09-22T06:05:36.000000Z
+71210571b82a50696b9e4cb9d279c0f0
+2008-06-25T07:09:36.551179Z
+2635
+zeke
+
+de
+dir
+
+FlashVars.as
+file
+
+
+
+
+2008-09-22T06:05:36.000000Z
+9fe997117629f008a026a52c35773a9c
+2008-06-25T09:32:05.573390Z
+2650
+zeke
+

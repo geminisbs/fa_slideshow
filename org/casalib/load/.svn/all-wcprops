@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/314/releases/latest/code/org/casalib/load
+END
+CasaLoader.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/314/releases/latest/code/org/casalib/load/CasaLoader.as
+END
+LoadItem.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/314/releases/latest/code/org/casalib/load/LoadItem.as
+END
+SwfLoad.as
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/!svn/ver/314/releases/latest/code/org/casalib/load/SwfLoad.as
+END
+AudioLoad.as
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/314/releases/latest/code/org/casalib/load/AudioLoad.as
+END
+ImageLoad.as
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/314/releases/latest/code/org/casalib/load/ImageLoad.as
+END
+VideoLoad.as
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/314/releases/latest/code/org/casalib/load/VideoLoad.as
+END
+DataLoad.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/!svn/ver/314/releases/latest/code/org/casalib/load/DataLoad.as
+END
+GroupLoad.as
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/314/releases/latest/code/org/casalib/load/GroupLoad.as
+END

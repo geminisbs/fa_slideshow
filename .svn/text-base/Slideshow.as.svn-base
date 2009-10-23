@@ -1,0 +1,48 @@
+package {
+  import Globals
+	import flash.display.*
+	import flash.events.*
+  import de.popforge.events.*
+  import FlashVars
+  import flash.system.Security
+  import flash.system.SecurityPanel
+
+	public class Slideshow extends MovieClip {
+
+		public function Slideshow() {
+      // Security.loadPolicyFile("http://s3.amazonaws.com/givezooks_production/crossdomain.xml")
+      // Security.allowDomain("s3.amazonaws.com");
+            
+      saveFlashVarsToGlobals()
+      configureStage()
+      showSpinner()
+      spawnChildren()
+		}
+		
+    private function saveFlashVarsToGlobals() {
+      var flash_vars = FlashVars.process(LoaderInfo(this.root.loaderInfo).parameters)
+      for (var k in flash_vars) {
+        Globals.vars[k] = flash_vars[k]
+      }
+    }
+    
+		private function configureStage() {
+      stage.align = StageAlign.TOP_LEFT
+      stage.scaleMode = StageScaleMode.NO_SCALE
+		}
+		
+	  private function showSpinner() {
+      var spinner = new Spinner()
+      addChild(spinner)
+	  }
+   
+	  private function spawnChildren() {
+	    var urls = Globals.vars.slide_list.split(";")
+	    for (var i=0; i<urls.length; i++) {
+        var image = new Image(i, urls[i])
+        addChild(image)
+	    }
+	  }
+				
+	}
+}
