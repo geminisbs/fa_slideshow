@@ -40,7 +40,6 @@ package {
 				
     function loadImages(event:Event):void {
 			_images_json = JSON.deserialize(event.target.data as String)
-			// Logger.debug(_images_json)
 			var i = 0
 			for each (var image_json in _images_json) {
 				var image:Image = new Image(i, image_json)

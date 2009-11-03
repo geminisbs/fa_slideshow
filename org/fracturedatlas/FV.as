@@ -17,8 +17,9 @@ package org.fracturedatlas {
 			
 			// Set string defaults
 			var strings:Object = {
-        base_url:"http://localhost:3000",
-				feed_url:"http://localhost:9393/photos/favorites.json",
+        // base_url:"http://localhost:3000",
+				feed_url:"http://localhost:9393/photos/favorites/all.json",
+				image_size: "medium", // small, medium, large, original
       	align_horizontal: "center", // left, center, right
       	align_vertical: "middle" // top, middle, bottom
 			}

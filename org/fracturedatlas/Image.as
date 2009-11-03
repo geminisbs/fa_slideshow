@@ -34,7 +34,7 @@ package org.fracturedatlas {
 			_loader = new Loader()
 			_loader.contentLoaderInfo.addEventListener(Event.COMPLETE, onImageLoaded)
 			_loader.contentLoaderInfo.addEventListener(IOErrorEvent.IO_ERROR, onIoError)
-			var request:URLRequest = new URLRequest(_json.medium_url)
+			var request:URLRequest = new URLRequest(image_url())
 			_loader.load(request,context)
     }
 
@@ -48,6 +48,11 @@ package org.fracturedatlas {
 			scale()
 			position()
 			isFirst() ? appearAndFadeIn() : hide()
+		}
+		
+		public function image_url() {
+			var s = FV.get.image_size
+			return _json[s+"_url"]
 		}
 
 		// function chooseImageSizeByStage() {
